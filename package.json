@@ -15,6 +15,7 @@
   },
   "homepage": "https://github.com/matyuuus/vsetkonajlepsie.git",
   "scripts": {
+    "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
